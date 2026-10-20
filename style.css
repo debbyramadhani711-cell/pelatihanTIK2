@@ -1,29 +1,37 @@
-
+```css
 body {
   background-color: #ffb6d5;
   font-family: "Times New Roman", Times, serif;
   color: #3c3c3c;
+  margin: 0;
+  padding: 20px;
 }
 
 .kartu-profil {
   width: 300px;
-  margin: 50px auto;
+  max-width: calc(100% - 40px);
+  margin: 30px auto;
   padding: 20px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
+  box-sizing: border-box;
 }
 
 .kartu-profil img {
   width: 150px;
   height: 150px;
+  max-width: 100%;
   object-fit: cover;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
 }
 
 .kartu-profil h1 {
   color: #ff1e7d;
+  font-size: 28px;
 }
 
 .kartu-profil a {
@@ -43,3 +51,4 @@ body {
 .kartu-profil button:hover {
   background-color: #d91466;
 }
+```
