@@ -1,27 +1,45 @@
+
 body {
-  background-color: #ff1e7d; /* Warna pastel pink */
-  font-family: Times New Roman, Times, serif
-  color: #3c3c3c
+  background-color: #ffb6d5;
+  font-family: "Times New Roman", Times, serif;
+  color: #3c3c3c;
 }
 
 .kartu-profil {
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 15px; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
-  
-  .kartu-profil img  {
-        width: 150px;
-        border-radius: 50%; /* TRik membuat gambar persegi jd lingkaran sempurna */
-  }
-  .kartu-profil {
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 15px; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
+}
+
+.kartu-profil img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.kartu-profil h1 {
+  color: #ff1e7d;
+}
+
+.kartu-profil a {
+  color: #ff1e7d;
+  text-decoration: none;
+}
+
+.kartu-profil button {
+  background-color: #ff1e7d;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.kartu-profil button:hover {
+  background-color: #d91466;
 }
